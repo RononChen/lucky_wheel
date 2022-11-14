@@ -1,5 +1,6 @@
 /* pages/home/home.wxss */
 page {
+    background-image: url(https://gd-hbimg.huaban.com/44f51cbe6c6fe36f4f25123fb91afdcdd6000cd610b94a-kXFcMX_fw1200);
     background-color: pink;
 }
 
@@ -150,7 +151,7 @@ page {
   transform: translate(125rpx, 0) rotate(270deg);
 }
 .sector:nth-child(2n+1) .sector-inner {
-  background: #fef6e0;
+  background: #aaaaaa;
 }
 .sector:nth-child(2n) .sector-inner {
   background: #ffffff;
@@ -189,4 +190,5 @@ page {
 }
 .light:nth-of-type(2n+1) {
   background-color: #ffffff;
+  background-image: image(lucky_wheel/resource);
 }

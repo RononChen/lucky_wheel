@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#7fc0e1",
-    "navigationBarTitleText": "幸运大抽奖",
+    "navigationBarTitleText": "东方练歌厅",
     "navigationBarTextStyle":"black"
   },
   "sitemapLocation": "sitemap.json",

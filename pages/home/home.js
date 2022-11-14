@@ -43,7 +43,7 @@ Page({
   // 点击 开始抽奖
   rotate() {
     // 没有抽奖机会时
-    if (this.data.record.length === 3) {
+    if (this.data.record.length === 1) {
         wx.showToast({
             title: '很可惜, 你已经抽完奖了!',
             icon: 'none',
@@ -73,22 +73,22 @@ Page({
     // 旋转的角度
     let angle = null;
     switch(this.data.list[numIndex]) {
-        case '谢谢参与':
+        case '谢谢惠顾':
             angle = Math.floor(Math.random()*(29-1+1))+1
             break;
-        case '一元':
+        case '五元':
             angle = -(Math.floor(Math.random()*(89-31+1))+31)
             break;
-        case '三元':
+        case '十元':
             angle = -(Math.floor(Math.random()*(149-91+1))+91)
             break;
-        case '五元':
+        case '二十元':
             angle = -(Math.floor(Math.random()*(209-151+1))+151)
             break;
-        case '六元':
+        case '五十元':
             angle = -(Math.floor(Math.random()*(269-211+1))+211)
             break;
-        case '十元':
+        case '一百元':
             angle = -(Math.floor(Math.random()*(329-271+1))+271)
             break;
     }

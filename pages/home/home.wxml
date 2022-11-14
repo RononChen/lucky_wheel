@@ -11,37 +11,37 @@
       <!-- 三角形 one-->
       <div class="sector">
         <div class="sector-inner">
-            <span>谢谢参与</span>
+            <span>谢谢惠顾</span>
         </div>
       </div>
       <!-- two -->
       <div class="sector">
         <div class="sector-inner">
-            <span>一元</span>
+            <span>五元</span>
         </div>
       </div>
       <!-- three -->
       <div class="sector">
         <div class="sector-inner">
-            <span>三元</span>
+            <span>十元</span>
         </div>
       </div>
       <!-- four -->
       <div class="sector">
         <div class="sector-inner">
-            <span>五元</span>
+            <span>二十元</span>
         </div>
       </div>
       <!-- five -->
       <div class="sector">
         <div class="sector-inner">
-            <span>六元</span>
+            <span>五十元</span>
         </div>
       </div>
       <!-- six -->
       <div class="sector">
         <div class="sector-inner">
-            <span>十元</span>
+            <span>一百元</span>
         </div>
       </div>
       <!-- 灯 -->
@@ -64,7 +64,7 @@
 
 <!-- 目前的机会 -->
 <view class="jihui">
-    你目前还有 <text>{{3 - record.length}}</text> 次机会.
+    你目前还有 <text>{{1 - record.length}}</text> 次机会.
 </view>
 
 <!-- 重新开始按钮 -->
@@ -76,14 +76,21 @@
 <view class="explain">
     <view class="explain_title">活动说明</view>
     <view class="explain_container">
-        <text>1. 不要作弊! ! !</text>
-        <text>2. 不要想着作弊! ! !</text>
-        <text>3. 不要以为我不知道你想着作弊! ! !</text>
-        <text>4. 不要以为你作弊的时候我抓不到你! ! !</text>
-        <text>5. 不要以为你以为的就是别人以为的! ! !</text>
-        <text>6. 活动每人仅有三次抽奖机会;</text>
+        <text>1. 本抽奖活动仅限于东方练歌厅使用。</text>
+        <text>2.  本活动不定期开放。活动期间，每次房费消费满100元可进行一次抽奖。</text>
+        <text>3. 中奖后可在吧台即刻兑奖。</text>
+        <text>4. 最终解释权归本歌厅所有。</text>
+        <text> </text>
+        <text> </text>
+        <text> </text>
     </view>
 </view>
 
 <!-- vant weapp 的 tabbar 标签栏 组件-->
-<my-tabbar></my-tabbar>
+<my-tabbar>
+  <radio value="{{radioValue}}" checked="true" />选中
+
+  <radio value="{{radioValue}}" checked="true" />选中
+
+  <radio value="{{radioValue}}" checked="true" />选中
+</my-tabbar>

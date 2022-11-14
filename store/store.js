@@ -7,31 +7,31 @@ export const store = observable({
   // 奖品列表
   prize: [
     {
-      'name': '谢谢参与', // 奖品名字
+      'name': '谢谢惠顾', // 奖品名字
       'winnning': 100, // 自定义的区间, 例如 "谢谢参与" 的区间是100-50
       'count': 50 // 在 100 中, 出现的次数, 实际为概率.
     }, 
     {
-      'name': '一元',
+      'name': '五元',
       'winnning': 50,
       'count': 40
     },
     {
-      'name': '三元',
+      'name': '十元',
       'winnning': 10,
       'count': 7
     }, 
     {
-      'name': '五元',
-      'winnning': 3,
+      'name': '二十元',
+      'winnning': 8,
       'count': 1
     },
     {
-      'name': '六元',
-      'winnning': 2,
+      'name': '五十元',
+      'winnning': 1,
       'count': 1
     }, {
-      'name': '十元',
+      'name': '一百元',
       'winnning': 1,
       'count': 1
     }, 
