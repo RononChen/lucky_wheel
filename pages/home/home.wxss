@@ -1,6 +1,5 @@
 /* pages/home/home.wxss */
 page {
-    background-image: url(https://gd-hbimg.huaban.com/44f51cbe6c6fe36f4f25123fb91afdcdd6000cd610b94a-kXFcMX_fw1200);
     background-color: pink;
 }
 
